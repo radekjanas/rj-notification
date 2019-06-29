@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cookies Rodo Notification</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			body {
+				margin: 0;
+				font-family: sans-serif;
+			}
+
+			.container {
+				background-color: #000;
+			}
+
+			header,
+			main,
+			footer {
+				width: 100%;
+			}
+
+			header {
+				height: 100px;
+				background-color: #ccc;
+			}
+
+			main {
+				height: 500px;
+				background-color: #eee;
+			}
+
+			footer {
+				height: 150px;
+				background-color: #dedede;
+			}		
+		</style>
+        <link href="css/rj-notification.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header></header>
+            <main></main>
+            <footer id="cookies-container"></footer>
+        </div>
+
+        <script src="js/rj-notification.js"></script>
+        <script>
+            const cookieNotification = new RjNotification({
+                notificationId: 'cookies-info',
+                notificationPosition: 'relative',
+                notificationFixedTop: true
+            });
+        </script>
+    </body>
+</html>

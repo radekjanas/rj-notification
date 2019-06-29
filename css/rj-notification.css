@@ -1,0 +1,53 @@
+.rj-notification {
+    font-family: inherit;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.rj-notification p {
+    display: inline-block;
+    margin: 0;
+    padding: 15px;
+}
+
+.rj-notification a {
+    text-decoration: none;
+    opacity: .8;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.rj-notification a:hover,
+.rj-notification-close:hover {
+    opacity: 1;
+}
+
+.rj-notification a:active,
+.rj-notification-close:active {
+    opacity: .8;
+}
+
+.rj-notification-close {
+    cursor: pointer;
+    margin: 0 10px;
+    opacity: .8;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.rj-disappear {
+    opacity: 0;
+}
+
+.rj-fall {
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+}
