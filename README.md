@@ -3,6 +3,9 @@
 rj-notification displays little information bar. It is highly configurable and great especially for cookies info.
 This plugin has been created for one of my commercial projects.
 
+## Screenshot
+![Notification](./screenshot.jpg)
+
 ## How to use
 
 1. Upload CSS and JS files to your project
